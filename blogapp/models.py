@@ -6,7 +6,7 @@ class BlogPost(models.Model):
                 ('music','音楽のこと'))
     title = models.CharField(
         verbose_name='タイトル',
-        max_length=200
+        max_length=500
         )
     content = models.TextField(
         verbose_name='本文'
