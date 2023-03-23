@@ -6,7 +6,7 @@ class IndexView(ListView):
     template_name = 'index.html'
     context_object_name = 'orderby_records'
     queryset = BlogPost.objects.order_by('-posted_at')
-    paginate_by = 4
+    paginate_by = 5
 
 class BlogDetail(DetailView):
     template_name='post.html'
