@@ -36,7 +36,7 @@ urlpatterns = [
         # dailylifeカテゴリの一覧ページのURLは「dailylife-list/」
         'dailylife-list/',
         # viewsモジュールのDailylifeViewsを実行
-        views.DailylifeViews.as_view(),
+        views.DailylifeView.as_view(),
         # URLパターン名を'dailylife_list'にする
         name='dailylife_list'
         ),
