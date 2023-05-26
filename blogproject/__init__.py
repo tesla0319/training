@@ -22,3 +22,5 @@ if __name__ == '__main__':
  p1.show()
  p2.show()
 
+ print(p1.show(),p2.show())
+
