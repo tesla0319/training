@@ -3,7 +3,8 @@ from django.db import models
 class BlogPost(models.Model):
     CATEGORY = (('science','科学のこと'),
                 ('dailylife','日常のこと'),
-                ('music','音楽のこと'))
+                ('music','音楽のこと')
+                ('game', 'ゲームのこと'))
     title = models.CharField(
         verbose_name='タイトル',
         max_length=50
