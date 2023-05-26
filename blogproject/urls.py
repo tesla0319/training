@@ -22,3 +22,9 @@ urlpatterns = [
 ]
 #commit
 apple
+
+key=input("Do you like apple? yes or no：")
+if key=="yes":
+    print("You have a taste!")
+else:
+    print("I think you have a bad taste.") 
