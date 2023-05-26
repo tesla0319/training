@@ -21,6 +21,7 @@ if __name__ == '__main__':
  p2 = Profile('中崎啓人','65歳','男')
  p1.show()
  p2.show()
-
  print(p1.show(),p2.show())
 
+print('yes')
+print('no')
